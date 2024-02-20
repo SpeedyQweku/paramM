@@ -2,8 +2,22 @@
 
 Finds param in url
 
-Usage
+## Installtion
 
 ```bash
-cat <url.txt> | paramM -l xss.txt
+go install github.com/SpeedyQweku/paramM@latest
+```
+
+## Usage
+
+```bash
+paramM -p < xss.txt > -l < url.txt >| qsreplace FUZZ | tee result.txt
+```
+
+## NOTE
+
+Install qsreplace from tomnomnom
+
+```bash
+go install github.com/tomnomnom/qsreplace@latest
 ```
