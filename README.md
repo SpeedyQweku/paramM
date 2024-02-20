@@ -1,6 +1,6 @@
 # paramM
 
-Finds param in url
+To match specify parameter in a url
 
 ## Installtion
 
