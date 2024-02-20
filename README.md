@@ -11,7 +11,7 @@ go install github.com/SpeedyQweku/paramM@latest
 ## Usage
 
 ```bash
-paramM -p < xss.txt > -l < url.txt >| qsreplace FUZZ | tee result.txt
+paramM -p < xss.txt > -l < url.txt > | qsreplace FUZZ | tee result.txt
 ```
 
 ## NOTE
